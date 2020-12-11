@@ -1,0 +1,80 @@
+.PosterContainer{
+  width: 100%;
+  background-color: #ffffff;
+  padding: 5% 0 ;
+  border-radius: 10px;
+}
+.mainContainer{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #252525;
+  position: relative;
+  background-color:#252525;
+  margin:auto;
+  overflow: hidden;
+}
+.profileImage{
+  width: 8%;
+  margin: 0px;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 2%;
+}
+.userName{
+  font-size: 100%;
+  position: absolute;
+  display: inline-block;
+  padding-top: 50px;
+  top: -4%;
+  color: white;
+}
+.postTime{
+  font-size: 80%;
+  color: rgb(197, 197, 197);
+}
+.postMenu{
+  display: inline-block;
+  float: right;
+  color: white;
+  font-size: 200%;
+  margin: 3%;
+}
+.postDetails{
+  margin: 2% 0 5% 5%;
+  color: rgb(190, 190, 190);
+  text-align: left;
+  font-size: 100%;
+  display: block;
+}
+.postImage{
+  width: 100%;
+}
+.postLine{
+  padding: 1%;
+}
+.postButton{
+  padding: 0.3%;
+}
+.Button{
+  width: 33%;
+  height: 45px;
+  border: none;
+  font-size: 110%;
+  border-radius: 5px;
+  background-color: #252525;
+  color: rgb(100, 100, 100);
+  transition: 0.3s;
+}
+.Button:hover{
+  background-color:#313131;
+  transition: 0.3s;
+}
+.active{
+  color: rgb(46, 46, 214);
+  transition: 0.5s;
+}
+.activeIcon{
+  transform: rotate(30deg);
+  transition: 0.5s;
+  transform: rotate(-30deg);
+}
