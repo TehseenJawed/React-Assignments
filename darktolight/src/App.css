@@ -1,0 +1,30 @@
+.darktoLight{
+  /* background-color: black; */
+  width: 100%;
+  height: 700px;
+}
+.dark{
+  width: 100%;
+  height: 700px;
+  background-color: black;
+}
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  position: relative;
+}
+.btnAnimator{
+  
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  100%  {background-color:yellow; left:200px; top:0px;}
+  /* 50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;} */
+}
